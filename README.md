@@ -4,6 +4,8 @@
 
 ### Exist
 - fs
+### Global
+- supervisor
 
 ### Dependencies
 - express
@@ -11,3 +13,10 @@
 - jade
 
 ### DevDependencies
+
+## Usage
+```sh
+$> npm install
+$> npm install -g supervisor
+$> supervisor app.js
+```
